@@ -1,0 +1,17 @@
+{
+  "name": "enhance-app",
+  "version": "0.0.1",
+  "scripts": {
+    "start": "arc sandbox",
+    "deploy.arc": "arc deploy",
+    "deploy.being": "begin deploy"
+  },
+  "dependencies": {
+    "@enhance/arc-plugin-enhance": "^9.4.7",
+    "whatev": "^1.0.0"
+  },
+  "devDependencies": {
+    "@architect/architect": "^11.0.2",
+    "@begin/deploy": "^0.19.0"
+  }
+}
