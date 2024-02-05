@@ -1,4 +1,5 @@
-import whatev from 'whatev' // this will be missing on AWS and on Begin
+import whatev from 'whatev' // this will be missing on AWS but available on Begin
+// probably a difference in hydrate versions between local and Begin deploy env
 
 export default function MyElement({ html }) {
   return html`

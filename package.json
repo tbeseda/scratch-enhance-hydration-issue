@@ -4,7 +4,7 @@
   "scripts": {
     "start": "arc sandbox",
     "deploy.arc": "arc deploy",
-    "deploy.being": "begin deploy"
+    "deploy.begin": "begin deploy"
   },
   "dependencies": {
     "@enhance/arc-plugin-enhance": "^9.4.7",
